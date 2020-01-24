@@ -49,14 +49,7 @@ public abstract class Item{
 	
 	public static void main(String args[]){ 
 		Item[] it = new Item[4];
-		it[0]= new Book("JAVA core", 1001, 10, "Cathy", 500, "Basics of JAVA");
-		it[1]= new JournalPaper("Research Paper", 1003, 15, "Radhika", 2020);
-		it[2]= new Video("Perfect", 1005, 100, 30, "ED shreen", "Music", "2020");
-		it[3]= new CD("Beautiful", 1007, 10, 40, "Music", "Slow");
-		
-		
-		for(int i =0; i< it.length;i++) 
-			System.out.println("Book Title:"+ it[i].getTitle());
+
 		
 	}
 }
